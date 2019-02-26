@@ -1,0 +1,25 @@
+{
+  "name": "nsqjs-promise",
+  "version": "0.0.1",
+  "description": "javescript nsq client base on 'nsqjs' with promise",
+  "main": "index.js",
+  "author": "geekberry@qq.com",
+  "license": "MIT",
+  "keywords": [
+    "nsq",
+    "client",
+    "koa",
+    "promise",
+    "reader",
+    "writer"
+  ],
+  "files": [
+    "lib",
+    "middlewares",
+    "index.js",
+    "readme.md"
+  ],
+  "dependencies": {
+    "nsqjs": "^0.12.0"
+  }
+}
