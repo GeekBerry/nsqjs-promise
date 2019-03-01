@@ -26,7 +26,8 @@ async function loggerMiddleware(message, next) {
 async function main() {
   // $ nsqlookupd
   // $ nsqd --lookupd-tcp-address=127.0.0.1:4160
-
+  // $ nsqadmin --lookupd-http-address=127.0.0.1:4161
+  
   // ------------------------------  Reader  ----------------------------------
   const reader = new NSQ.Reader({
     topic: 'sample_topic', channel: 'sample_channel',
